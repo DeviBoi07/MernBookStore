@@ -5,7 +5,7 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 const apiUrl = "https://BookStore---MERN-Stack.onrender.com/api";
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/MernBookStore/">
     <App />
   </BrowserRouter>
 );
